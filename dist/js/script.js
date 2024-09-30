@@ -56,9 +56,13 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
     darkToggle.checked = false;
   }
 
+<<<<<<< HEAD
 // alert
 
 window.addEventListener("load", function() {
+=======
+    window.addEventListener("load", function() {
+>>>>>>> ad6f7855539c54f61877efbde13e13ac9a51a5b7
     const form = document.getElementById('my-form');
     form.addEventListener("submit", function(e) {
     e.preventDefault();
@@ -73,4 +77,7 @@ window.addEventListener("load", function() {
     })
   });
 });
+<<<<<<< HEAD
   
+=======
+>>>>>>> ad6f7855539c54f61877efbde13e13ac9a51a5b7
